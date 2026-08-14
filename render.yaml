@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: suvam-portfolio
+    name: suvamkurmi-portfolio
     runtime: static
     staticPublishPath: .
     routes:
