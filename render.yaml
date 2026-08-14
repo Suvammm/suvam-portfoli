@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: suvam-portfolio
+    runtime: static
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
